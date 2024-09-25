@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(2, 76, 69, 0.9);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(2, 76, 69);
+    width: 60%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.about, .skills, .contact {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.contact p {
+    font-size: 1.1rem;
+}
